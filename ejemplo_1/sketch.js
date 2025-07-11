@@ -14,7 +14,7 @@ Declaración de variables globales
 */
 let video; // Variable que almacenará el flujo de video de la cámara.
 let classifier; //Variable que almacenará el clasificador de imágenes basado en el modelo de Teachable Machine.
-let modelLoaded = 'https://teachablemachine.withgoogle.com/models/KkZgXMEfu/'; // URL de modelo preentrenado alojado en Teachable Machine.
+let modelLoaded = 'https://teachablemachine.withgoogle.com/models/rjehfuMfn/'; // URL de modelo preentrenado alojado en Teachable Machine.
 let label = 'esperando...'; //Texto inicial que se mostrará mientras el modelo procesa la imágen.
 let flippedVideo;
 
