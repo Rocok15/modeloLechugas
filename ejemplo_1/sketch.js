@@ -86,35 +86,3 @@ function gotResults(error, results) { //Esta función se ejecuta cada vez que el
   */
 }
 
-
-
-
-/*
-Resumen del flujo de ejecución
-1.-preload(): Carga el modelo de clasificación antes de ejecutar el programa.
-
-2.-setup():
-
-  Crea el lienzo.
-
-  Captura el video desde la cámara.
-
-  Inicia la clasificación con classifyVideo().
-
-3.-classifyVideo(): Envía los cuadros del video al modelo y espera la respuesta en gotResults().
-
-4.-gotResults():
-
-  Si hay un error, lo imprime en la consola.
-
-  Si hay una clasificación, actualiza la variable label con la categoría detectada.
-
-5.-draw():
-
-  Dibuja el video en el lienzo.
-
-  Muestra la clasificación en pantalla.
-
-Este código permite clasificar objetos en tiempo real utilizando la cámara del dispositivo.
- */
-
